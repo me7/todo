@@ -10,5 +10,7 @@ from struct import pack
 i = pack('f',200.0)
 [hex(ord(j)) for j in i]
 
+or use asciibin.hexlify()
+
 ```
 
